@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <h1>My Advanced Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Blog Posts Section -->
+    <section id="blog-posts">
+        <!-- Wrap each post with a link (anchor tag) -->
+        <a href="https://www.example.com/tech-ai" class="post-link">
+            <div class="post">
+                <h2>Tech Post: The Future of AI</h2>
+                <p class="category">Category: Technology</p>
+                <p class="date">December 7, 2024</p>
+                <p>Artificial Intelligence is rapidly advancing, bringing both opportunities and challenges to various industries.</p>
+            </div>
+        </a>
+
+        <a href="https://www.example.com/lifestyle-tips" class="post-link">
+            <div class="post">
+                <h2>Lifestyle Post: Healthy Living Tips</h2>
+                <p class="category">Category: Lifestyle</p>
+                <p class="date">December 6, 2024</p>
+                <p>Discover simple lifestyle changes that can lead to healthier living, both physically and mentally.</p>
+            </div>
+        </a>
+
+        <a href="https://www.example.com/nutrition-myths" class="post-link">
+            <div class="post hidden">
+                <h2>Health Post: Nutrition Myths Busted</h2>
+                <p class="category">Category: Health</p>
+                <p class="date">December 5, 2024</p>
+                <p>We debunk some common nutrition myths that could be affecting your health and fitness goals.</p>
+            </div>
+        </a>
+
+        <a href="https://www.example.com/5g-technology" class="post-link">
+            <div class="post hidden">
+                <h2>Tech Post: 5G and Beyond</h2>
+                <p class="category">Category: Technology</p>
+                <p class="date">December 4, 2024</p>
+                <p>The roll-out of 5G networks is expected to revolutionize the way we interact with technology.</p>
+            </div>
+        </a>
+    </section>
+
+    <!-- Load More Button -->
+    <div class="load-more">
+        <button id="load-more" onclick="loadMorePosts()">Load More</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Advanced Blog | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
